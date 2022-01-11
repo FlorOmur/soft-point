@@ -26,7 +26,6 @@ a {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
-    position: relative;
 }
 
 .header {
@@ -449,7 +448,7 @@ a {
 
 .plan-item {
     text-align: center;
-
+    position: relative;
 }
 
 .plan-title {
@@ -736,6 +735,8 @@ input[type=range]:active::-ms-fill-upper {
 .green-circle {
     position: absolute;
     top: 0;
+    bottom: 0;
+    margin: auto;
     right: -130px;
 }
 
