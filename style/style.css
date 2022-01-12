@@ -443,7 +443,6 @@ a {
 
 .plan {
     padding: 132px 0;
-    background-color: #FFF;
 }
 
 .plan-item {
@@ -660,10 +659,10 @@ input[type=range]:active::-ms-fill-upper {
 }
 
 /*renge*/
-.col-4-choice {
+.col-4-item {
     border: 1px solid rgba(1, 18, 18, 0.1);
     padding: 35px 0;
-
+    background-color: #FFF;
 }
 
 .title-col-4 {
@@ -730,14 +729,16 @@ input[type=range]:active::-ms-fill-upper {
     position: absolute;
     bottom: 0;
     left: -130px;
+    z-index: -1;
 }
 
 .green-circle {
     position: absolute;
-    top: 0;
+    top: 140px;
     bottom: 0;
     margin: auto;
-    right: -130px;
+    right: -125px;
+    z-index: -1;
 }
 
 footer {
