@@ -20,6 +20,7 @@ a {
     max-width: 1185px;
     margin: 0 auto;
     padding: 0 15px;
+    background-color: #85FED6;
 }
 
 .row {
@@ -380,6 +381,7 @@ a {
     position: absolute;
     left: -224px;
     top: -126px;
+    direction: rtl;
 }
 
 .title-serving {
