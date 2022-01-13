@@ -500,9 +500,10 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #43DDAA;;
+    background-color: #43DDAA;
     -webkit-transition: .4s;
     transition: .4s;
+    border-radius: 10px;
 }
 
 .slider:before {
@@ -515,6 +516,7 @@ a {
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
+    border-radius: 6px;
 }
 
 input:checked + .slider {
