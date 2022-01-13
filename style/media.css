@@ -127,10 +127,12 @@
         font-size: 12px;
         line-height: 25px;
     }
-    .feedback-form{
+
+    .feedback-form {
         margin: 0;
     }
-    .feedback-input{
+
+    .feedback-input {
         font-size: 15px;
     }
 
@@ -144,8 +146,13 @@
         padding: 11px 27px;
         font-size: 15px;
     }
-    .img-app{
+
+    .img-app {
         display: flex;
+    }
+
+    .col-6, .col-5, .col-7 {
+        width: 100%;
     }
 
     .feedback-input {
