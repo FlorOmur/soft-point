@@ -41,9 +41,8 @@ a {
     width: 33.333%;
     padding: 0 15px;
 }
-
-.img-logo {
-    font-size: 20px;
+.logo-header{
+    max-width: 100%;
 }
 
 .menu {
@@ -141,7 +140,7 @@ a {
 }
 
 .feedback-input {
-    max-width: 472px;
+    max-width: 100%;
     font-size: 18px;
     line-height: 27px;
     font-family: 'Poppins', sans-serif;
@@ -149,13 +148,16 @@ a {
     border-radius: 6px;
     box-shadow: 0px 0px 21px -4px #000000;
     padding: 19px 135px 19px 24px;
-    margin-bottom: 37px;
     border: none;
 }
 
 .feedback-form {
     position: relative;
     margin-right: 77px
+}
+
+.hero .feedback-form{
+    margin-bottom: 36px;
 }
 
 .feedback-btn {
@@ -182,9 +184,6 @@ a {
     padding: 0 15px;
 }
 
-.solution-for-you {
-    position: relative;
-}
 
 .outer-solution {
     background: rgba(142, 230, 201, 0.1);
@@ -197,12 +196,12 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+.sites-item{
+    transition: 0.5s;
+}
 
-.solution-block {
-    position: absolute;
-    width: 50%;
-    left: 35px;
-    bottom: -75px;
+.sites-item:hover {
+filter: grayscale(1);
 }
 
 .col-6 {
@@ -400,6 +399,9 @@ a {
 .software {
     padding: 91px 0;
     background: rgba(142, 230, 201, 0.1);
+}
+
+.outer-software {
     position: relative;
 }
 
@@ -417,10 +419,10 @@ a {
     margin-bottom: 30px;
 }
 
-.img-laptop {
+.img-laptop-item {
     position: absolute;
-    top: -115px;
-    right: -190px;
+    top: -198px;
+    right: -218px;
 }
 
 .btn-software {
@@ -535,7 +537,7 @@ input:checked + .slider:before {
 
 .content-item {
     position: relative;
-    margin-bottom: 36px;
+    margin-bottom: 56px;
 }
 
 .plan-subcontent:before {
@@ -570,7 +572,7 @@ input[type=range] + label {
     padding: 5px 0;
     position: absolute;
     top: -40px;
-    left: 351px;
+    left: calc(50% - 40px);
     text-align: center;
     width: 80px;
 }
@@ -662,7 +664,7 @@ input[type=range]:active::-ms-fill-upper {
 }
 
 /*renge*/
-.col-4-item {
+.col-4-plan-item {
     border: 1px solid rgba(1, 18, 18, 0.1);
     padding: 35px 0;
     background-color: #FFF;
@@ -719,6 +721,7 @@ input[type=range]:active::-ms-fill-upper {
     border-radius: 6px;
     border: 1px solid #F55454;
     color: rgba(245, 84, 84, 0.9);
+    cursor: pointer;
     transition: 0.6s;
 }
 
