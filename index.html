@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
 </head>
 <body>
 <header id="header" class="header">
@@ -18,7 +19,7 @@
             <div class="col-4">
                 <nav class="menu">
                     <a class="item-menu" href="#analysis">Feature</a>
-                    <a class="item-menu" href="#header">Download</a>
+                    <a class="item-menu" href="#outer-software">Download</a>
                     <a class="item-menu" href="#plan">Pricing</a>
                 </nav>
             </div>
@@ -36,11 +37,18 @@
         <div class="row">
             <div class="col-5">
                 <div class="item-col-5">
-                    <h1 class="title-hero">Develop Your Life With <span class="color-title">One Step.</span></h1>
+                    <h1 class="title-hero">Develop Your Life With <span class="color-title">One Step.</span>
+                    </h1>
+                    <div class="block-dot">
+                        <svg class="dots" width="36" height="16" viewBox="0 0 18 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="4.02179" cy="4.02161" r="3.4" transform="rotate(-11.7641 4.02179 4.02161)" fill="#4EDAAC"/>
+                            <circle cx="14.9018" cy="3.90199" r="2.4532" transform="rotate(-11.7641 14.9018 3.90199)" fill="#4EDAAC"/>
+                        </svg>
+                    </div>
                 </div>
                 <P class="hero-content">Pushing the possibilities of the internet. Good for the last software. <span
-                        class="">Make
-                    it A software night.</span></P>
+                        class="">Make it A software night.</span></P>
+
                 <form class="feedback-form">
                     <input class="feedback-input" type="email" placeholder="Enter your email">
                     <button class="feedback-btn">Send</button>
@@ -51,7 +59,7 @@
                     <a class="img-feedback" href="#"><img class="img-apple" src="./img/img-apple.png" alt="apple"></a>
                 </div>
             </div>
-            <div class="col-7">
+            <div class="col-7 inner-hero-block">
                 <img src="./img/hero.png">
             </div>
         </div>
@@ -71,7 +79,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-6 soltion-col-6">
                 <div class="row">
                     <div class="col-6">
                         <div class="block-inner">
@@ -143,7 +151,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-6 soltion-col-6">
                 <div class="content">
                     <h2 class="title-solution"> A complete software solution for you.</h2>
                     <p class="content-solution">The source of powerful qorld and making future sure. Its a straight
@@ -246,7 +254,6 @@
                         <p class="analysis-icon-content">Complete business solutions for customers.</p>
                     </div>
                 </div>
-
             </div>
             <div class="col-7">
                 <img src="./img/img-analysis.png" alt="analys" class="img-alaysis">
@@ -256,7 +263,7 @@
             <div class="row">
                 <div class="col-6">
                     <div class="img-serving">
-                        <img src="./img/img-serving.png">
+                        <img class="serving-img" src="./img/img-serving.png">
                     </div>
                 </div>
                 <div class="col-6">
@@ -269,11 +276,10 @@
             </div>
         </div>
     </div>
-
 </section>
 <section class="software">
     <div class="container">
-        <div class="outer-software">
+        <div id="outer-software" class="outer-software">
             <div class="row">
                 <div class="col-5">
                     <h3 class="title-software">Get our software</h3>

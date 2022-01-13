@@ -111,17 +111,12 @@ a {
     margin-bottom: 25px;
     position: relative;
 }
-
-.title-hero:before {
-    content: "";
+.dots{
     position: absolute;
-    bottom: 21px;
-    right: 80px;
+   left: 10px;
+    bottom: 23px;
+    height: 8px;
     width: 18px;
-    height: 10px;
-    display: block;
-    background-image: url("../img/dots.png");
-    background-repeat: no-repeat;
 }
 
 .title-hero span {
@@ -371,15 +366,8 @@ filter: grayscale(1);
     opacity: 0.7;
 }
 
-.serving {
-    position: relative;
-}
-
 .img-serving {
-    position: absolute;
-    left: -224px;
-    top: -126px;
-    direction: rtl;
+direction: rtl;
 }
 
 .title-serving {
@@ -442,6 +430,7 @@ filter: grayscale(1);
     background-color: rgba(142, 230, 201, 0.1);
     border-radius: 10px;
     color: #F44545;
+    cursor: pointer;
 }
 
 .plan {
