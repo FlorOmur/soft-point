@@ -4,12 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     color: #021206;
+
 }
 
 a {
@@ -655,9 +657,10 @@ input[type=range]:active::-ms-fill-upper {
 
 /*renge*/
 .col-4-plan-item {
-    border: 1px solid rgba(1, 18, 18, 0.1);
-    padding: 35px 0;
     background-color: #FFF;
+    border-top: 1px solid rgba(1, 18, 18, 0.1);
+    border-right: 1px solid rgba(1, 18, 18, 0.1);
+    border-left: 1px solid rgba(1, 18, 18, 0.1);
 }
 
 .title-col-4 {
@@ -667,13 +670,20 @@ input[type=range]:active::-ms-fill-upper {
     opacity: 0.5;
 }
 
+.inner-col-4{
+    border-bottom: 1px solid rgba(1, 18, 18, 0.1);
+    padding: 15px 0;
+}
+
 .col-4-content {
     display: flex;
     justify-content: space-between;
     padding: 22px 0;
     border-bottom: 1px solid rgba(1, 18, 18, 0.1);
-    border-top: 1px solid rgba(1, 18, 18, 0.1);
-
+}
+.block-btn-choice{
+    border-bottom: 1px solid rgba(1, 18, 18, 0.1);
+    padding: 15px 0;
 }
 
 .info-col-4 {
@@ -706,7 +716,6 @@ input[type=range]:active::-ms-fill-upper {
     font-size: 20px;
     line-height: 34px;
     padding: 13px 76px;
-    margin-top: 42px;
     background: #FFF;
     border-radius: 6px;
     border: 1px solid #F55454;
