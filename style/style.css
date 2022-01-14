@@ -739,10 +739,10 @@ input[type=range]:active::-ms-fill-upper {
 
 .green-circle {
     position: absolute;
-    top: 140px;
+    top: -140px;
     bottom: 0;
     margin: auto;
-    right: -125px;
+    right: -107px;
     z-index: -1;
 }
 
@@ -777,6 +777,7 @@ footer {
     opacity: 0.7;
     margin-bottom: 20px;
     color: #021206;
-
-
+}
+.footer-link:hover{
+    color: #4EDAAC;
 }

@@ -269,13 +269,6 @@
 }
 
 @media (max-width: 576px) {
-    .container{
-        max-width: 315px;
-    }
-    body{
-        overflow-x: hidden;
-    }
-
     .dots{
         left: 230px;
     }
@@ -319,6 +312,18 @@
     }
     .plan-input{
         margin-bottom: 10px;
+    }
+    .info-col-4 .choice-title{
+        font-size: 14px;
+    }
+    .choice{
+        font-size: 14px;
+    }
+    .green-circle{
+        display: none;
+    }
+    .orange-circle{
+        display: none;
     }
 
 }
