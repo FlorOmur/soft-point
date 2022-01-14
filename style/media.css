@@ -261,12 +261,20 @@
 }
 
 @media (max-width: 576px) {
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        max-width: 320px;
+    }
     .title-hero{
+        font-size: 16px;
         line-height: 38px;
     }
     .dots{
-        bottom: 8px;
-        right: 58px;
+        bottom: 14px;
+        right: 17px;
+        height: 3px;
     }
 
     .outer-solution{
@@ -316,15 +324,8 @@
     .choice{
         font-size: 14px;
     }
-    .green-circle{
-        display: none;
-    }
-    .orange-circle{
-        display: none;
-    }
+.green-circle{
+    display: none;
 }
-@media (max-width: 400px) {
-.dots{
-    right: 213px;
-}
+.orange-circle{display: none}
 }

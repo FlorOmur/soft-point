@@ -107,13 +107,16 @@ a {
     font-size: 49px;
     line-height: 81px;
     margin-bottom: 25px;
+
+}
+.color-title{
     position: relative;
 }
 
 .dots {
     position: absolute;
     right: 80px;
-    bottom: 5px;
+    bottom: 22px;
 }
 
 .title-hero span {
@@ -737,7 +740,6 @@ input[type=range]:active::-ms-fill-upper {
     position: absolute;
     top: -140px;
     bottom: 0;
-    margin: auto;
     right: -107px;
     z-index: -1;
 }
