@@ -22,12 +22,10 @@
     .hero-content {
         font-size: 16px;
     }
-
-    .dots {
-        position: absolute;
-        left: 245px;
+    .dots{
         bottom: 28px;
-        height: 7px;
+        right: 109px;
+        height: 6px;
     }
 
     .feedback-btn {
@@ -106,6 +104,12 @@
         padding: 15px 29px;
         font-size: 16px;
     }
+    .info-col-4 .choice-title{
+        font-size: 14px;
+    }
+    .choice{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -123,7 +127,11 @@
     }
 
     .title-hero {
-        font-size: 39px;
+        font-size: 38px;
+    }
+    .dots{
+        bottom: 27px;
+        right: 74px;
     }
 
     .hero-content {
@@ -139,12 +147,6 @@
 
     .feedback-input {
         font-size: 15px;
-    }
-
-    .dots {
-        bottom: 26px;
-        height: 7px;
-        left: 637px;
     }
 
     .feedback-btn {
@@ -190,7 +192,6 @@
         font-size: 15px;
     }
 
-
     .analysis-item {
         justify-content: center;
     }
@@ -221,30 +222,21 @@
         max-width: 540px;
     }
 
-    .btn {
-
-    }
-
     .title-hero {
-        font-size: 31px;
+        font-size: 29px;
         margin-bottom: 5px;
+    }
+    .dots{
+        bottom: 30px;
+        right: 22px;
     }
 
     .hero-content {
 
     }
-
-    .dots {
-        bottom: 29px;
-        height: 6px;
-        left: 505px;
-    }
-
     .content {
         padding: 30px 0;
     }
-
-
 
     .analysis {
         padding: 0;
@@ -269,9 +261,14 @@
 }
 
 @media (max-width: 576px) {
-    .dots{
-        left: 230px;
+    .title-hero{
+        line-height: 38px;
     }
+    .dots{
+        bottom: 8px;
+        right: 58px;
+    }
+
     .outer-solution{
         padding: 19px;
     }
@@ -325,5 +322,9 @@
     .orange-circle{
         display: none;
     }
-
+}
+@media (max-width: 400px) {
+.dots{
+    right: 213px;
+}
 }
