@@ -738,7 +738,7 @@ input[type=range]:active::-ms-fill-upper {
 
 .green-circle {
     position: absolute;
-    top: -140px;
+    top: 31px;
     bottom: 0;
     right: -107px;
     z-index: -1;

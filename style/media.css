@@ -10,6 +10,9 @@
     img {
         max-width: 100%;
     }
+    .menu{
+        display: none;
+    }
 
     .hero {
         margin-bottom: 20px;
@@ -104,11 +107,15 @@
         padding: 15px 29px;
         font-size: 16px;
     }
+
     .info-col-4 .choice-title{
         font-size: 14px;
     }
     .choice{
         font-size: 14px;
+    }
+    .col-4-plan-item{
+        margin-bottom: 15px;
     }
 }
 
@@ -321,6 +328,7 @@
     .info-col-4 .choice-title{
         font-size: 14px;
     }
+
     .choice{
         font-size: 14px;
     }
