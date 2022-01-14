@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl.theme.default.min.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/media.css">
 </head>
 <body>
 <header id="header" class="header">
-    <div class="container">
+    <div class="container header-container">
         <div class="row">
             <div class="col-4">
                 <a class="img-logo" href="#">
@@ -22,6 +25,7 @@
                     <a class="item-menu" href="#outer-software">Download</a>
                     <a class="item-menu" href="#plan">Pricing</a>
                 </nav>
+                <div class="burger"><span></span></div>
             </div>
             <div class="col-4">
                 <div class="header-auth">
@@ -63,7 +67,7 @@
                 </div>
             </div>
             <div class="col-7 inner-hero-block">
-                <img src="./img/hero.png">
+                <img data-aos="flip-left" src="./img/hero.png">
             </div>
         </div>
     </div>
@@ -71,7 +75,7 @@
 <section id="solution-for-you" class="solution-for-you">
     <div class="outer-solution">
         <div class="container">
-            <div class="sites">
+            <div class="sites owl-carousel">
                 <a class="sites-item" href="#"><img src="./img/google.png" alt="google"></a>
                 <a class="sites-item" href="#"><img src="./img/avast.png" alt="avast"></a>
                 <a class="sites-item" href="#"><img src="./img/ebay.png" alt="ebay"></a>
@@ -259,14 +263,14 @@
                 </div>
             </div>
             <div class="col-7">
-                <img src="./img/img-analysis.png" alt="analys" class="img-alaysis">
+                <img data-aos="fade-left" src="./img/img-analysis.png" alt="analys" class="img-alaysis">
             </div>
         </div>
         <div class="serving">
             <div class="row">
                 <div class="col-6">
                     <div class="img-serving">
-                        <img class="serving-img" src="./img/img-serving.png">
+                        <img class="serving-img" data-aos="zoom-out-down" src="./img/img-serving.png">
                     </div>
                 </div>
                 <div class="col-6">
@@ -296,7 +300,7 @@
                 </div>
                 <div class="col-7">
                     <div class="img-laptop">
-                        <img class="img-laptop-item" src="./img/laptop.png" alt="laptop">
+                        <img class="img-laptop-item" data-aos="flip-left" src="./img/laptop.png" alt="laptop">
                     </div>
                 </div>
             </div>
@@ -481,6 +485,9 @@
         </div>
     </div>
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./js/jquery.js"></script>
+<script src="./js/owl.carousel.min.js"></script>
 <script src="./js/java.js"></script>
 </body>
 </html>

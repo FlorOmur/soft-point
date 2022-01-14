@@ -11,7 +11,6 @@ body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     color: #021206;
-
 }
 
 a {
@@ -22,6 +21,10 @@ a {
     max-width: 1185px;
     margin: 0 auto;
     padding: 0 15px;
+}
+.header-container{
+    padding-top: 35px;
+    height: 57px;
 }
 
 .row {
@@ -59,6 +62,14 @@ a {
     color: #021206;
     opacity: 0.5;
     padding: 0 22px;
+}
+.burger{
+    font-size: 28px;
+    color: #FFF;
+    display: none;
+}
+.burger:hover{
+    cursor: pointer;
 }
 
 .header-auth {
@@ -659,6 +670,9 @@ input[type=range]:active::-ms-fill-upper {
     border-top: 1px solid rgba(1, 18, 18, 0.1);
     border-right: 1px solid rgba(1, 18, 18, 0.1);
     border-left: 1px solid rgba(1, 18, 18, 0.1);
+}
+.col-4-plan-item:hover{
+    box-shadow: 0px 15px 65px rgba(65, 77, 68, 0.15);
 }
 
 .title-col-4 {
