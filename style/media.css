@@ -269,92 +269,56 @@
 }
 
 @media (max-width: 576px) {
+    .container{
+        max-width: 315px;
+    }
     body{
         overflow-x: hidden;
     }
 
-    .title-hero {
-
+    .dots{
+        left: 230px;
+    }
+    .outer-solution{
+        padding: 19px;
+    }
+    .title-solution{
+        font-size: 27px;
+        line-height: 37px;
+        margin-bottom: 15px;
+    }
+    .analysis-title{
+        font-size: 30px;
+        line-height: 43px;
+    }
+    .title-serving{
+        font-size: 23px;
+        line-height: 32px;
+    }
+    .title-software{
+        font-size: 33px;
+        line-height: 26px;
+    }
+    .btn-software{
+        margin-bottom: 30px;
+    }
+    .plan{
+        padding: 28px 0;
+    }
+    .plan-title{
+        font-size: 33px;
+        line-height: 53px;
+        margin: 0;
+    }
+    .slider:before{
+        content: "";
+        height: 22px;
+        width: 22px;
+        bottom: 6px;
+        left: 2px;
+    }
+    .plan-input{
+        margin-bottom: 10px;
     }
 
-    .hero-content {
-
-    }
-
-    .dots {
-        position: absolute;
-
-    }
-
-    .feedback-btn {
-
-    }
-
-    .feedback-input {
-
-    }
-
-    .block-inner {
-
-    }
-
-    .block-title {
-
-    }
-
-    .block-content {
-
-    }
-
-    .title-solution {
-
-    }
-
-    .content-solution {
-
-    }
-
-    .subcontent-solution {
-
-    }
-
-    .analysis {
-
-    }
-
-    .analysis-title {
-
-    }
-
-    .analysis-subcontent {
-
-    }
-
-    .analysis-icon-content {
-
-    }
-
-    .serving {
-
-    }
-
-    .title-serving {
-
-    }
-
-    .content-serving {
-
-    }
-
-    .title-software {
-
-    }
-
-    .content-software {
-
-    }
-
-    .btn-software {
-
-    }
 }
