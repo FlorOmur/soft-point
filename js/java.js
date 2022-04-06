@@ -18,6 +18,7 @@ range.addEventListener('input', (e) => {
     // Calculate the left value
     const left = value * (num_width / max) - num_label_width / 2 + scale(value, min, max, 10, -10);
     label.style.left = `${left}px`;
+
     label.innerHTML ="$ "+value;
 });
 
